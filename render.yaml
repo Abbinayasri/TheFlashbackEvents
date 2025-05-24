@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: flashback-events
+    env: static
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    staticPublishPath: build
